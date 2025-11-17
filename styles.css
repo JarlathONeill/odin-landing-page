@@ -79,6 +79,12 @@ ul {
 
 .sign-up-btn {
     background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
 }
 
 .section-two {
