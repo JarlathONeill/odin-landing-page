@@ -2,25 +2,18 @@ body {
     font-family: roboto;
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
-    margin-left: 180px;
-    margin-right: 180px;
-
+    margin: 0;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
-    display: flex;
-    
 }
 
 .links {
     font-size: 18px;
     color: #E5E7EB;
-    display: flex;
-    
 }
 
 a  {
@@ -29,20 +22,26 @@ a  {
     color: #E5E7EB;
 }
 
-.hero-secondary {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-
 .header {
     display: flex;
     background: #1F2937;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 0 80px 0;
+    height: 72px;
+    padding: 0 16px;
+    gap: 32px;
 }
 
+.header-left {
+    display: flex;
+    margin-left: 180px;
+
+}
+
+.header-right {
+    display: flex;
+    margin-right: 180px;
+}
 
 ul {
     display: flex;
@@ -51,45 +50,3 @@ ul {
     gap: 16px;
     list-style-type: none;
 }
-
-.section-one {
-    display: flex;
-}
-
-.one-left {
-    flex: 1;
-    flex-flow: column wrap;
-    
-}
-
-.one-right {
-    flex: 1;
-    background-color: grey;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.hero-main {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
-    
-}
-
-.sign-up-btn {
-    background-color: #3882F6;
-    font-size: 18px;
-    font-weight: bold;
-    color: #E5E7EB;
-    border-radius: 5px;
-    width: 120px;
-    height: 35px;
-}
-
-.section-two {
-    display: flex;
-    background-color: white;
-    flex: 1
-}
-
