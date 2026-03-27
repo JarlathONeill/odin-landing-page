@@ -68,10 +68,23 @@ body {
 }
 
 .section-two {
+
+}
+
+.section-two .container{
     display: flex;
     justify-content: center;
-    gap: 52px;
+    gap: 35px;
     text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-two .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .info {
@@ -80,9 +93,26 @@ body {
 }
 
 .info img {
-
     width: 150px;
     height: 150px;
     border: solid #3882F6;
     border-radius: 25px;
+}
+
+.info .text {
+    color: #1F2937;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: center;
+    margin: 100px;
 }
