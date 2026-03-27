@@ -64,5 +64,25 @@ body {
 .hero-right img {
     width: 400px;
     height: auto;
+    border-radius: 25px;
+}
 
+.section-two {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.info {
+    max-width: 200px;
+    margin-top: 50px;
+}
+
+.info img {
+
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6;
+    border-radius: 25px;
 }
